@@ -10,6 +10,11 @@
 - Build checksum of spreadsheet cells
 - `Python3`
 
+## Day 4 *Spiral Distance*
+
+- find Manhattan Distance of number in spiral grid
+- `Crystal`
+
 ## Day 4 *Valid passphrases*
 
 - filter a list of passphrases
