@@ -14,3 +14,8 @@
 
 - filter a list of passphrases
 - `Crystal`
+
+## Day 5 *Offset jumping*
+
+- Step through a list of jump instructions
+- `Crystal`
