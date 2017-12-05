@@ -5,7 +5,12 @@
 - Build sum of int stream 
 - `JavaScript`
 
-## Day 1 *Spreadsheet*
+## Day 2 *Spreadsheet*
 
 - Build checksum of spreadsheet cells
 - `Python3`
+
+## Day 4 *Valid passphrases*
+
+- filter a list of passphrases
+- `Crystal`
