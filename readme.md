@@ -23,4 +23,7 @@
 ## Day 5 *Offset jumping*
 
 - Step through a list of jump instructions
+## Day 6 *Inifinite loop*
+
+- rearange array of *block stacks* until known state found
 - `Crystal`
