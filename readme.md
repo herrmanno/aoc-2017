@@ -14,3 +14,8 @@
 
 - filter a list of passphrases
 - `Crystal`
+
+## Day 5 *Inifinite loop*
+
+- rearange array of *block stacks* until known state found
+- `Crystal`
