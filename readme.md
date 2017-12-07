@@ -23,7 +23,14 @@
 ## Day 5 *Offset jumping*
 
 - Step through a list of jump instructions
+- `Crystal`
+
 ## Day 6 *Inifinite loop*
 
 - rearange array of *block stacks* until known state found
+- `Crystal`
+
+## Day 7 *Program-Graph*
+
+- Build a (unidirectional) graph and find out how to balance it
 - `Crystal`
