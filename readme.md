@@ -34,3 +34,8 @@
 
 - Build a (unidirectional) graph and find out how to balance it
 - `Crystal`
+
+## Day 8 *Registry-Instructions-Processing*
+
+- Execute a set of instructions on a registry an find highest value
+- `Crystal`

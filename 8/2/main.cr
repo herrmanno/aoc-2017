@@ -51,8 +51,13 @@ instructions = input.split("\n").map { |line| Instr.new(line) }
 
 reg = Hash(String,Int32).new(0)
 
+highest = 0
+
 instructions.map do |instr|
 	instr.exec(reg)
+	if reg.values.size > 0
+		highest = [highest, reg.values.max].max
+	end
 end
 
-puts("Highegt value in any register is #{reg.values.max}")
+puts("Highegt value ever held in any register during processing is #{highest}")
