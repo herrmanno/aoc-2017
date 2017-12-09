@@ -39,3 +39,8 @@
 
 - Execute a set of instructions on a registry an find highest value
 - `Crystal`
+
+## Day 8 *Stream w/ groups and garbage*
+
+- Process a Char-Stream and count groups and garbage
+- `Kotlin`
