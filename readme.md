@@ -40,7 +40,12 @@
 - Execute a set of instructions on a registry an find highest value
 - `Crystal`
 
-## Day 8 *Stream w/ groups and garbage*
+## Day 9 *Stream w/ groups and garbage*
 
 - Process a Char-Stream and count groups and garbage
+- `Kotlin`
+
+## Day 10 *Knot-Hash*
+
+- Implement a custom Hash-Algorhithm based on reversing sublists of the input
 - `Kotlin`
