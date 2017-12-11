@@ -49,3 +49,8 @@
 
 - Implement a custom Hash-Algorhithm based on reversing sublists of the input
 - `Kotlin`
+
+## Day 11 *Hex-Grid*
+
+- Follow a given path in a grid of hex's and determine distance to (0,0) at end
+- `Kotlin`
