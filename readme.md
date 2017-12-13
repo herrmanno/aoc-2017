@@ -54,3 +54,8 @@
 
 - Follow a given path in a grid of hex's and determine distance to (0,0) at end
 - `Kotlin`
+
+## Day 12 *Program-Comunication*
+
+- Build a (unidirectional) graph and find all accesible nodes / number of isolated groups
+- `JavaScript`
