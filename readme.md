@@ -59,3 +59,8 @@
 
 - Build a (unidirectional) graph and find all accesible nodes / number of isolated groups
 - `JavaScript`
+
+## Day 13 *Passing-Wirewall*
+
+- Pass an 2-dim array on top row w/ moving guard at every col
+- `JavaScript`
