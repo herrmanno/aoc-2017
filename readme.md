@@ -69,3 +69,8 @@
 
 - Count 1-bits and adjacent groups of 1-bits in 2-dim grid
 - `JavaScript`
+
+## Day 15 *Number-Generators*
+
+- Run two number generators and count how often the produce same result
+- `Crystal`
