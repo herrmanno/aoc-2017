@@ -46,21 +46,48 @@ function knotHash(s, rounds = 64) {
     return hexHash
 }
 
-function bitCount(s) {
+function toBinaryString(s) {
     while (s.length > 8) {
-        return bitCount(s.slice(0, s.length / 2)) + bitCount(s.slice(s.length / 2))
+        return toBinaryString(s.slice(0, s.length / 2)) + toBinaryString(s.slice(s.length / 2))
     }
 
-    return parseInt(s, 16).toString(2).split("").reduce((acc, bit) => acc + (bit === '1'), 0)
+    return parseInt(s, 16).toString(2).padStart(s.length * 4, "0")
 }
+
+function addToGroups(s, row, groups) {
+    const bs = toBinaryString(s)
+    for (let col = 0, c = bs[col]; col < bs.length; c = bs[++col]) {
+        if (row === 120 && col === 33) debugger
+        
+        if (+c) {
+            const matches = groups.filter(g => g.some(([row2, col2]) =>
+                (row === row2 && Math.abs(col - col2) === 1) ||
+                (col === col2 && Math.abs(row - row2) === 1)
+            ))
+            if (matches.length > 1) {
+                while (matches.length > 1) {
+                    const g = matches.pop()
+                    matches[0].push(...g)
+                    groups.splice(groups.indexOf(g), 1)
+                }
+                matches[0].push([row, col])
+            } else if (matches.length === 1) {
+                matches[0].push([row, col])
+            } else {
+                groups.push([ [row, col] ])
+            }
+        }
+    }
+}
+
 
 
 const key = fs.readFileSync("input.txt").toString()
 
-let sum = 0
+const groups = []
 for(let i = 0; i < 128; i++) {
     const hash = knotHash(`${key}-${i}`)
-    sum += bitCount(hash)
+    addToGroups(hash, i, groups)
 }
 
-console.log(`There are ${sum} used squres`)
+console.log(`There are ${groups.length} distinct groups`)

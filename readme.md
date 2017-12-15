@@ -64,3 +64,8 @@
 
 - Pass an 2-dim array on top row w/ moving guard at every col
 - `JavaScript`
+
+## Day 14 *Defragmentation*
+
+- Count 1-bits and adjacent groups of 1-bits in 2-dim grid
+- `JavaScript`
