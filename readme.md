@@ -74,3 +74,8 @@
 
 - Run two number generators and count how often the produce same result
 - `Crystal`
+
+## Day 16 *Dancing-Programs*
+
+- Rearange an array of chars by a given *choregraphy*, but do it one billion times
+- `JavaScript`
