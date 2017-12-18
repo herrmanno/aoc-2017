@@ -79,3 +79,8 @@
 
 - Rearange an array of chars by a given *choregraphy*, but do it one billion times
 - `JavaScript`
+
+## Day 17 *Spinlock*
+
+- Create a huge cycle-buffer and find a specific element
+- `JavaScript`
