@@ -84,3 +84,13 @@
 
 - Create a huge cycle-buffer and find a specific element
 - `JavaScript`
+
+## Day 18 *Duet*
+
+- Run two assembly programs that interact with eachother and count a specific instruction
+- `JavaScript`
+
+## Day 19 *Packet-Path*
+
+- Follow a Packet on its path
+- `JavaScript`
